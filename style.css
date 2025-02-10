@@ -1,0 +1,110 @@
+@media only screen and (max-width: 500px) {
+    .nav {
+        background-color: #ab32ab !important;
+        flex-direction: column;
+    }
+
+    ul{
+        flex-direction: column;
+    }
+    
+:root{
+    --hover-color: #4cec4c;
+    --background-color: #fffff;
+}
+
+
+}
+
+body {
+    background-color: rgb(225, 225, 225);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    background-color: var(--background-color)
+    box-shadow: 0px 0px 15px grey;
+    border-radius: 999px;
+    padding: 7px 10px;
+    margin: 4px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.line {
+    list-style: none;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.line:first-child:hover {
+    background-color: var(--hover-color);
+    background-image: url('home.svg');
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    padding-right: 35px;
+    padding-right: 45px;
+    background-size: 20px 20px;
+}
+
+
+.line:nth-child(2):hover {
+    background-color: var(--hover-color);
+    background-image: url('Product.svg');
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    padding-right: 35px;
+    padding-right: 45px;
+    background-size: 20px 20px;
+}
+
+.line:nth-child(3):hover {
+    background-color: var(--hover-color);
+    background-image: url('blog.svg');
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    padding-right: 35px;
+    padding-right: 45px;
+    background-size: 20px 20px;
+}
+
+.line:nth-child(4):hover {
+    background-color: var(--hover-color);
+    background-image: url('about.svg');
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    padding-right: 35px;
+    padding-right: 45px;
+    background-size: 20px 20px;
+}
+
+
+.logo {
+    width: 70px;
+    height: 30px;
+    margin-right: 40px;
+    object-fit: cover;
+}
